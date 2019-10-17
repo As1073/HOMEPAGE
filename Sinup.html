@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>
+</title>
+<style>
+form
+{
+text-align:center;
+height:50%;
+margin-left:400px;
+margin-right:400px;
+}
+</style>
+
+</head>
+<body>
+<form style="background-color:gray" >
+<fieldset>
+<legend>Signup</legend>
+<input type="Text" placeholder="Name" id="Name" required><br>
+<br>
+<br>
+<input type="Email" placeholder="Email"  id="Email" required><br>
+<br>
+<br>
+<input type="Password" placeholder="Password" required><br>
+<br>
+<br>
+<input type="button" onclick="f1()" value="SignUp"  size="80" >
+</fieldset>
+</form>	
+<script>
+function f1()
+{
+var obj=
+{
+   name : document.getElementById("Name").value ,
+   Email : document.getElementById("Email").value
+};
+alert("Name="+obj.name);
+alert("Email="+obj.Email);
+}
+</script
+</body>
+</html>
